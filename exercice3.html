@@ -1,13 +1,13 @@
 <html>
   <head>
     <style>
-      label{
+      .right{
         text-align : right;
       }
-      input{
+      .left{
         text-align : left;
       }
-      form{
+      .center{
         text-align : center;
       }
       
@@ -15,9 +15,9 @@
     
   </head>
   <body>
-    <form>
-      <label>Votre pseudo : </label>
-      <input type="text" name="pseudo"><br>
+    <form class="center">
+      <label class="right">Votre pseudo : </label>
+      <input type="text" name="pseudo" class="left"><br>
       <label>Votre mot de passe : </label>
       <input type="text" name="password"><br>
       <label>Ressaisir votre mot de passe </label>
